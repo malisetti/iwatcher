@@ -1,0 +1,26 @@
+{
+    "name": "mseshachalam/iwatcher",
+    "description": "Inotify bindings for ReactPHP with Symfony Event Dispatcher Component",
+    "keywords": ["inotify", "react", "symfony", "event-dispatcher"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Seshachalam Malisetti",
+            "email": "abbiya@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Abbiya": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "ext-inotify": "*",
+        "react/event-loop": ">=0.2, <0.4",
+        "symfony/event-dispatcher": "2.6.*@dev",
+        "symfony/process": "2.6.*@dev",
+        "symfony/console": "2.6.*@dev",
+        "symfony/yaml": "2.6.*@dev",
+        "symfony/dependency-injection": "2.6.*@dev",
+        "symfony/config": "2.6.*@dev"
+    }
+}

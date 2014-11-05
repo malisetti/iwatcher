@@ -1,0 +1,10 @@
+parameters:
+  base.path: .
+  
+services:
+  watch.command:
+    class: Abbiya\Watcher\Command\WatchCommand
+    calls:
+      - [setDispatcher, ["@dispatcher"]]
+  dispatcher:
+    class: Symfony\Component\EventDispatcher\EventDispatcher
