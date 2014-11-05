@@ -1,4 +1,7 @@
 # React-Inotify
+iwatcher
+
+watches over some file/dir and on inotify changes it can execute a command
 
 Basic inotify bindings for [React PHP](https://github.com/reactphp).
 
